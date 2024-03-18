@@ -28,11 +28,9 @@ hamburger.addEventListener("click", function () {
 
 // Hero header
 var app = document.getElementById("app");
-
 var typewriter = new Typewriter(app, {
   loop: true,
 });
-
 typewriter
   .typeString("Sk Kahinoor")
   .pauseFor(2500)
@@ -41,5 +39,4 @@ typewriter
   .pauseFor(2500)
   .deleteAll()
   .start();
-
 // Hero header ends
