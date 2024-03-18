@@ -37,3 +37,12 @@
   font-size: 20px;
 }
 /* Nav Bar ends here  */
+
+/* Hero header  */
+.sk-btn-cv {
+  color: var(--theme-color);
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Madimi One", sans-serif;
+}
+/* Hero header ends  */
