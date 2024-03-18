@@ -1,0 +1,28 @@
+/* variables  */
+:root {
+  --background: #f0fff0;
+  --theme-color: #8a2be2;
+}
+
+/* Global Tags  */
+* {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+}
+
+/* Nav bar starts here  */
+.sk-nav {
+  /* color: var(--theme-color); */
+}
+.sk-nav-title {
+  color: var(--theme-color);
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "Madimi One", sans-serif;
+}
+.sk-nav-menu {
+  font-family: "Madimi One", sans-serif;
+  color: var(--theme-color);
+}
+/* Nav Bar ends here  */
