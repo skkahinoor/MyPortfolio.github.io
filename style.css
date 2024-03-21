@@ -45,4 +45,8 @@
   cursor: pointer;
   font-family: "Madimi One", sans-serif;
 }
+.sk-hero-img {
+  object-fit: contain;
+  aspect-ratio: 3/2;
+}
 /* Hero header ends  */
