@@ -2,6 +2,7 @@
 :root {
   --background: #f0fff0;
   --theme-color: #8a2be2;
+  --theme-font: "Madimi One", sans-serif;
 }
 
 /* Global Tags  */
@@ -49,6 +50,18 @@
   object-fit: contain;
   aspect-ratio: 4/3;
   height: 30rem;
+  animation: breth 3s linear infinite;
+}
+@keyframes breth {
+  0% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.95);
+  }
 }
 @media only screen and (max-width: 768px) {
   .sk-hero-img {
