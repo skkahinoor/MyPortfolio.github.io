@@ -48,5 +48,6 @@
 .sk-hero-img {
   object-fit: contain;
   aspect-ratio: 3/2;
+  height: 25rem;
 }
 /* Hero header ends  */
