@@ -56,3 +56,23 @@
   }
 }
 /* Hero header ends  */
+
+/* Footer Starts here  */
+.footer-title,
+.input {
+  color: var(--theme-color);
+  font-family: var(--theme-font) !important;
+}
+.link,
+.btn-primary {
+  color: var(--dark-color) !important;
+  font-family: var(--theme-font) !important;
+}
+.input {
+  background-color: var(--background) !important;
+}
+.btn-primary {
+  background-color: var(--theme-color) !important;
+  color: var(--background) !important;
+}
+/* Footer Ends here  */
