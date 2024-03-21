@@ -31,6 +31,10 @@
   font-family: "Madimi One", sans-serif;
   color: var(--theme-color);
 }
+.sk-nav-menu-link {
+  text-decoration: none;
+  color: var(--theme-color);
+}
 .sk-nav-mob span {
   color: var(--theme-color);
   font-weight: bold;
@@ -76,6 +80,7 @@
 .input {
   color: var(--theme-color);
   font-family: var(--theme-font) !important;
+  background: transparent;
 }
 .link,
 .btn-primary {
