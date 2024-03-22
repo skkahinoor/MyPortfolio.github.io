@@ -14,33 +14,33 @@
 }
 
 /* Nav bar starts here  */
+.sk-nav-root {
+  background-color: var(--background);
+}
 .sk-nav {
-  /* color: var(--theme-color); */
-  background: transparent;
+  background-color: #ffffff;
+}
+.navbar-start {
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.navbar-start1 {
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.navbar-end {
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .sk-nav-title {
-  color: var(--theme-color);
-  font-weight: bold;
-  cursor: pointer;
-  font-family: "Madimi One", sans-serif;
+  color: var(--theme-color) !important;
+  font-family: var(--theme-font);
 }
-.sk-nav-title h1 {
-  font-size: 35px;
-}
-.sk-nav-menu {
-  font-family: "Madimi One", sans-serif;
-  color: var(--theme-color);
-}
-.sk-nav-menu-link {
-  text-decoration: none;
-  color: var(--theme-color);
-}
-.sk-nav-mob span {
-  color: var(--theme-color);
-  font-weight: bold;
-  cursor: pointer;
-  font-family: "Madimi One", sans-serif;
-  font-size: 20px;
+.sk-toogle {
+  background: transparent !important;
 }
 /* Nav Bar ends here  */
 
