@@ -78,12 +78,19 @@
     transform: scale(0.95);
   }
 }
+/* Hero header ends  */
+
+/* Responsive start  */
 @media only screen and (max-width: 768px) {
   .sk-hero-img {
     height: 20rem;
   }
 }
-/* Hero header ends  */
+/* Responsive ends  */
+
+/* About card  */
+
+/* About card ends  */
 
 /* Footer Starts here  */
 .footer-title,
