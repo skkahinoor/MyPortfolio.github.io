@@ -57,6 +57,10 @@
 .sk-hero-title {
   color: var(--dark-color) !important;
 }
+.sk-hero-name {
+  color: var(--theme-color);
+  font-family: var(--theme-font);
+}
 .sk-hero-img {
   object-fit: contain;
   aspect-ratio: 4/3;

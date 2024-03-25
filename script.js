@@ -27,16 +27,5 @@ hamburger.addEventListener("click", function () {
 // Nav bar ends here
 
 // Hero header
-var app = document.getElementById("app");
-var typewriter = new Typewriter(app, {
-  loop: true,
-});
-typewriter
-  .typeString("Sk Kahinoor")
-  .pauseFor(2500)
-  .deleteAll()
-  .typeString("Web Developer")
-  .pauseFor(2500)
-  .deleteAll()
-  .start();
+
 // Hero header ends
